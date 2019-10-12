@@ -1,0 +1,29 @@
+h1 {
+  color: #FF0000;
+  text-shadow: 2px 2px #dddddd;
+}
+#rc1 {
+  border-radius: 25px;
+  background: url(./bg.jpg);
+  background-size: 150%;
+  width: 400px;
+  height: 250px;
+  padding: 20px;
+}
+.rc2 {
+  border-radius: 25px;
+  border: 5px solid red;
+  # background: url(./bg.jpg);
+  background: -webkit-linear-gradient(red,orange);
+  background: -o-linear-gradient(red,orange);
+  background: -moz-linear-gradient(red,orange);
+  background: linear-gradient(red,orange);
+  padding: 20px;
+  width: 400px;
+}
+.sh1 {
+  box-shadow: 5px 10px #eeeeee;
+  # font-family: georgia, garamond, serif;
+  font-weight: 900;
+  color: white;
+}
